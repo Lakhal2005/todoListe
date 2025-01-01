@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="date"></div>
+
+        <div class="content">
+
+            <div class="title">
+                <h2>To-Do List</h2>
+                <i class="fa-solid fa-book"></i>
+            </div>
+
+            <div class="add-task">
+                <input type="text" placeholder="Add your task" id="input-box">
+                <button class="add" onclick="addTask()">Add</button>
+            </div>
+
+            <div class="border"></div>
+            <ul class="list-container">
+                <!-- Task Items Will Be Dynamically Added Here -->
+            </ul>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
